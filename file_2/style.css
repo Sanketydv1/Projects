@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 95vw;
+    width: 80vw;
     padding: 2rem 1rem;
     margin: 0 auto;
     /* background-color: aquamarine; */
@@ -39,10 +39,11 @@ a{
     grid-template-columns: repeat(4,1fr);
 }
 .card_container{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(45, 42, 42);
-    border-radius: 2px;
+    border: 1px solid rgb(205, 197, 197);
+    border-radius: 8px;
 }
 .card_img_container{
     position: relative;
@@ -84,6 +85,7 @@ a{
 
 .card_footer_container{
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
     padding: 1.5rem;
 }
